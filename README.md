@@ -1,5 +1,5 @@
 # Java Design Patterns
-This repository is dedicated to learning Java Design Patterns. Here, you will find various examples of commonly used design patterns based on Head First Design Patterns book.
+This repository is dedicated to learning Java Design Patterns. Here, you will find various examples of commonly used design patterns from Head First Design Patterns book.
 
 ## What are Design Patterns?
 Design Patterns are reusable solutions to commonly occurring software problems. They are best practices for solving software design problems and provide solutions that can be adapted to suit different situations.
@@ -16,6 +16,7 @@ This repository contains examples and explanations of the following design patte
 ### Creational Patterns
 
 ### Structural Patterns
+- Decorator
 
 ### Behavioral Patterns
 - Observer
