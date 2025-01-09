@@ -1,0 +1,30 @@
+﻿@page "/"
+@using BlazorRecipeApp.Adapters
+@using BlazorRecipeApp.Models
+@using BlazorRecipeApp.Services
+
+@inject RecipeService RecipeService
+
+<h3>Recipe</h3>
+
+@if (_recipeViewModel == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <p><strong>Name:</strong> @_recipeViewModel.Name</p>
+    <p><strong>Ingredients:</strong> @_recipeViewModel.Ingredients</p>
+}
+
+@code {
+    private RecipeViewModel? _recipeViewModel;
+
+    protected override void OnInitialized()
+    {
+        var recipeApiModel = RecipeService.GetRecipe();
+
+        var adapter = new RecipeAdapter(recipeApiModel);
+        _recipeViewModel = adapter.ConvertToViewModel();
+    }
+}
