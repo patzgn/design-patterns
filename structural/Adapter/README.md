@@ -1,17 +1,17 @@
-### Definition
+## Definition
 
 The Adapter pattern is a design pattern that enables two incompatible interfaces to work together by creating an intermediary class. It is often used in scenarios such as:
 
 - Legacy code that does not fit new requirements.
 - External libraries with interfaces different from what is expected in our project.
 
-### Key Concepts
+## Key Concepts
 
 - **Target:** The interface or class we want to work with.
 - **Adaptee:** The class whose interface needs to be adapted.
 - **Adapter:** The intermediary class that connects the Target with the Adaptee.
 
-### Classification of the Adapter Pattern
+## Classification of the Adapter Pattern
 
 The Adapter pattern can be implemented in two variations:
 
@@ -23,7 +23,7 @@ The Adapter pattern can be implemented in two variations:
     - Utilizes composition to connect the Adaptee object with the Target interface.
     - More flexible and widely used in C#.
 
-### Examples of Adapter Usage
+## Examples of Adapter Usage
 
 - **Integration with external APIs:**
     
