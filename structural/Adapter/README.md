@@ -36,3 +36,15 @@ The Adapter pattern can be implemented in two variations:
 - **Handling legacy code:**
 
     Example: In a new system, using an old class whose interface differs from the current requirements.
+
+## Advantages and Disadvantages of the Adapter Pattern
+
+- **Advantages:**
+    - *Flexibility:* Enables integration with existing code without modifying it.
+    - *Reusability:* Allows you to reuse existing classes in new contexts.
+    - *Isolation:* Separates code dependent on external libraries from the rest of the system.
+
+- **Disadvantages:**
+    - *Complexity:* Adding an Adapter increases the number of classes and code in the system.
+    - *Performance:* Introduces an additional layer, which may impact performance in real-time systems.
+    - *Limited Functionality:* The Adapter does not extend functionality; it merely adjusts the interface.
