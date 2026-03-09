@@ -1,4 +1,4 @@
-**Task:** Extract the discount logic into a Strategy pattern. Each discount type should be a separate class. Add a new "seasonal" type with a 10% discount — without modifying the OrderProcessor class.
+**Task:** Extract the discount logic into a Strategy pattern. Each discount type should be a separate class. Add a new "seasonal" type with a 10% discount — without modifying the `OrderProcessor` class.
 
 ```csharp
 public class OrderProcessor
