@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Behavioral/" />
+  <Folder Name="/Behavioral/Strategy/">
+    <Project Path="Behavioral/Strategy/DataExporter/DataExporter.csproj" />
+    <Project Path="Behavioral/Strategy/DiscountCalculator/DiscountCalculator.csproj" />
+  </Folder>
+</Solution>
