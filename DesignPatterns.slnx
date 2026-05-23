@@ -7,4 +7,8 @@
   <Folder Name="/Behavioral/Observer/">
     <Project Path="Behavioral/Observer/OnlineStore/OnlineStore.csproj" />
   </Folder>
+  <Folder Name="/Creational/FactoryMethod/">
+    <Project Path="Creational/FactoryMethod/01-LogisticsPlanner/Start/LogisticsPlanner.Start.csproj" />
+    <Project Path="Creational/FactoryMethod/01-LogisticsPlanner/Solution/LogisticsPlanner.Solution.csproj" />
+  </Folder>
 </Solution>
