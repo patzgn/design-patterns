@@ -10,5 +10,7 @@
   <Folder Name="/Creational/FactoryMethod/">
     <Project Path="Creational/FactoryMethod/01-LogisticsPlanner/Start/LogisticsPlanner.Start.csproj" />
     <Project Path="Creational/FactoryMethod/01-LogisticsPlanner/Solution/LogisticsPlanner.Solution.csproj" />
+    <Project Path="Creational/FactoryMethod/02-SupportTicketRouter/Start/SupportTicketRouter.Start.csproj" />
+    <Project Path="Creational/FactoryMethod/02-SupportTicketRouter/Solution/SupportTicketRouter.Solution.csproj" />
   </Folder>
 </Solution>
